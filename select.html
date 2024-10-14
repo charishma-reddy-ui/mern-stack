@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>multiple and single select</title>
+  </head>
+  <body>
+    <h1>Multiple and Single Select</h1>
+    <hr />
+    <!--single select-->
+    <div>
+      <label>select your best programming languages and libraries</label>
+    </div>
+    <select name="languages">
+      <option value="javascript">javascript</option>
+
+      <option value="java">java</option>
+      <option value="javascript">javascript</option>
+      <option value="python">python</option>
+      <option value="Mongo db">Mongo DB</option>
+      <option value="Express js">Express.js</option>
+      <option value="React js">javascript</option>
+    </select>
+    <!--multiple select here to click on mutiple options control+click-->
+    <div>
+      <label>select your best programming languages and libraries</label>
+    </div>
+    <select name="languages" multiple>
+      <option value="javascript">javascript</option>
+
+      <option value="java">java</option>
+      <option value="node js">node js</option>
+      <option value="python">python</option>
+      <option value="Mongo db">Mongo DB</option>
+      <option value="Express js">Express.js</option>
+      <option value="React js">react js</option>
+    </select>
+    <br />
+    <!--field set-->
+    <fieldset>
+      <legend>select favourite color</legend>
+      <label>red</label>
+      <input type="radio" />
+      <label>yellow</label>
+      <input type="radio" />
+    </fieldset>
+    <!--option group-->
+    <select>
+      <optgroup label="color">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="pink">pink</option>
+      </optgroup>
+      <optgroup label="languages">
+        <option value="hindi">hindi</option>
+        <option value="english">eng</option>
+        <option value="telugu">telugu</option>
+      </optgroup>
+    </select>
+  </body>
+</html>
